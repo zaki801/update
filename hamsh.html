@@ -1,0 +1,71 @@
+ 
+        <div class="form-container">
+            <h2>Sign Up</h2>
+            <div id="signUpForm"> <!-- Wrap all inputs in the <form> tag -->
+                <input type="text" id="userName" placeholder="Name" required>
+                <p class="error" id="usernameError"></p>
+
+                <input type="text" id="phone" placeholder="Phone Number" required>
+                <p class="error" id="phoneError"></p>
+
+                <input type="email" id="email" placeholder="Email" required>
+                <p class="error" id="emailError"></p>
+                
+                <div class="address">
+                    <select id="city" required>
+                        <option value="">City</option>
+                        <option value="Cairo">Cairo</option>
+          <option value="Giza">Giza</option>
+          <option value="Alexandria">Alexandria</option>
+          <option value="Qalyubia">Qalyubia</option>
+          <option value="Menofia">Menofia</option>
+          <option value="Sharqia">Sharqia</option>
+          <option value="Dakahlia">Dakahlia</option>
+          <option value="Beheira">Beheira</option>
+          <option value="Kafr El-Sheikh">Kafr El-Sheikh</option>
+          <option value="Gharbia">Gharbia</option>
+          <option value="Damietta">Damietta</option>
+          <option value="Port Said">Port Said</option>
+          <option value="Ismailia">Ismailia</option>
+          <option value="Suez">Suez</option>
+          <option value="Fayoum">Fayoum</option>
+          <option value="Beni Suef">Beni Suef</option>
+          <option value="Minya">Minya</option>
+          <option value="Assiut">Assiut</option>
+          <option value="Sohag">Sohag</option>
+          <option value="Qena">Qena</option>
+          <option value="Luxor">Luxor</option>
+          <option value="Aswan">Aswan</option>
+          <option value="Red Sea">Red Sea</option>
+          <option value="New Valley">New Valley</option>
+          <option value="Matrouh">Matrouh</option>
+          <option value="North Sinai">North Sinai</option>
+          <option value="South Sinai">South Sinai</option>
+                    </select>
+                    
+                    <select id="state" required>
+                        <option value="">State</option>
+                        <option value="State1">State 1</option>
+                        <option value="State2">State 2</option>
+                    </select>
+                    <input type="text" id="st" placeholder="Street" required>
+                </div>
+                
+                <select id="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <p class="error" id="genderError"></p>
+
+                <input type="password" id="password" placeholder="Password" required>
+                <p class="error" id="passwordError"></p>
+
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                <p class="error" id="confirmPasswordError"></p>
+                
+                <button type="submit" id="signUpButton">Sign Up</button>
+            </div>
+            <p class="login-link">Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>

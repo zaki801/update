@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="set">
+    <div class="container_set">
+        <div class="left-section">
+            <h1 class="title">Set up your Profile</h1>
+            <p class="subtitle">Complete your personal Information's</p>
+
+            <form id="profileForm">
+                <label for="set_name" class="input-label">User Name</label>
+                <input type="text" id="set_name" placeholder="@johnduo" class="input-field" required>
+
+                <label for="set_date" class="input-label">Date of Birth</label>
+                <input type="date" id="set_date" class="input-field" required>
+
+                <label for="set_education" class="input-label">Education/Occupation</label>
+                <input type="text" id="set_education" placeholder="High School, Engineer, etc..." class="input-field" required>
+
+                <label for="set_skills" class="input-label">Skill/Expertise</label>
+                <input type="text" id="set_skills" placeholder="Graphic Design, Programming, etc..." class="input-field" required>
+            </form>
+        </div>
+
+        <div class="right-section">
+            <div class="profile-pic-section">
+                <label class="upload-label">Upload a Profile picture</label>
+                <div class="upload-box">
+                    <input type="file" id="set_picture" accept="image/*" required>
+                    <img id="previewImage" src="" alt="Profile Picture Preview" style="display: none;">
+                </div>
+            <label for="set_about" class="input-label">Tell us about yourself</label>
+            <textarea id="set_about" placeholder="Share a short description so others can know you better..." maxlength="500" required></textarea>
+            <div id="char_count" class="char-counter">0/500</div>
+
+          
+            </div>
+
+            <button type="submit" id="submitBtn" class="next-button">Next</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
